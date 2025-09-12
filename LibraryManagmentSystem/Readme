@@ -1,1 +1,7 @@
-Hi
+ Library Management System (Java)
+
+This project is a simple Library Management System implemented in Core Java to demonstrate object-oriented programming concepts such as classes, inheritance, interfaces, and basic exception handling. The system allows users to add new books with details like title, author, and ISBN, issue and return books, and check their availability. It is built around a menu-driven console interface that makes it easy to interact with the library.
+
+The project follows a structured design where the Book class inherits from a base class Ite, and the LibraryClass implements the Issueable interface to manage the collection of books. The code has been kept simple, focusing on readability and core Java concepts rather than advanced frameworks. To ensure reliability, unit tests have been written using JUnit 5, covering book creation, issuing and returning books, and checking availability.
+
+The application can be compiled and run from the command line, and JUnit tests can be executed to validate functionality. This project is a good example of applying fundamental Java principles to solve a real-world problem, while also practicing software testing with JUnit.
